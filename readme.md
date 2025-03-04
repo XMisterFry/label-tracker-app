@@ -1,5 +1,5 @@
 About :
-The Food Label Tracker is a simple web application that allows users to enter and store nutritional information for various food products. It provides an easy way to track key nutritional metrics like sugars, carbohydrates, and proteins. Users can submit new products via a form, and the data is stored dynamically.
+The Food Label Tracker is a simple web application that allows users to enter and store nutritional information for various food products. It provides an easy way to track key nutritional metrics like sugars, carbohydrates, and proteins and gives a perspective on how much of these nutritions are present in common food items. Users can submit new products via a form, and the data is stored dynamically.
 
 Structure at Initial commit :
 
