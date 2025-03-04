@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Labeltracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="navbar" >
+        <div id="logotext">
+            <h1 id="logo"> LABELTRACK</h1>
+        </div>
+       
+        <div id="menu">
+            <button id="homeBtn">Home</button>
+            
+            <button id="contributeBtn"> <span id="contri">Contribute Label +</span></button> 
+        </div>
+    </div>
+
+    <div id="labelForm">
+        <h1 id="labelformHead">
+            Contribute a Label to our Database
+        </h1>
+        <p>
+            Please only mention the readings on per serving basis.
+        </p>
+
+        <form id="labelFormfields">
+            <input class= "inputFields" id="brand" type="text" placeholder="Brand Name eg. Britannia Good Day">
+            <input class= "inputFields" id="sugars"type="number" placeholder="Sugars">
+            <input class= "inputFields" id="carbs"type="number" placeholder="Carbs">
+            <input class= "inputFields" id="proteins" type="number" placeholder="Proteins">
+            <button id="submitBtn" type="submit"> Submit Label</button>
+        </form>
+    </div>
+
+    
+    <script type="module" src="form-script.js"></script>
+</body>
+
+
+
+</html>
