@@ -64,7 +64,9 @@ function collectForm (event){
     
 };
 
-let submitBtn= document.getElementById('submitBtn');
-submitBtn.addEventListener('click',collectForm);
+document.addEventListener("DOMContentLoaded", function () {
+  let submitBtn = document.getElementById('submitBtn');
+  submitBtn.addEventListener('click', collectForm);
+});
 
 console.log(labels);
